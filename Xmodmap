@@ -1,0 +1,11 @@
+!
+! Swap Caps_Lock and Control_L
+! Check xev with capslock and change iout below
+! Maybe later add support for Hyper modifier
+! https://wiki.archlinux.org/index.php/Xmodmap
+remove Lock = Caps_Lock
+remove Control = Control_L
+keysym Control_L = Caps_Lock
+keysym Caps_Lock = Control_L
+add Lock = Caps_Lock
+add Control = Control_L

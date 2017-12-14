@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Viber
+Comment=Viber VoIP and messenger
+Exec=bash -c "QT_AUTO_SCREEN_SCALE_FACTOR=0 viber" %u
+Icon=viber.png
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;P2P;
+MimeType=x-scheme-handler/viber;
