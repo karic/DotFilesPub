@@ -1,0 +1,4 @@
+bind sp :open -b https://getpocket.com/edit?url={url}
+bind sP :open -t https://getpocket.com/edit?url={url}
+bind tG :set-cmd-text -s :tab-give
+bind tg :tab-give
